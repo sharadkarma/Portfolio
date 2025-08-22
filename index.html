@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div class="theme-toggle">
+            <i class='bx bx-moon' id="theme-icon"></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Your Name</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Creative developer passionate about building innovative web experiences and solving complex problems with elegant code.</p>
+            
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            
+            <div class="btn-group">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="https://placehold.co/400x400/2563eb/FFFFFF?text=Your+Photo" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://placehold.co/400x500/2563eb/FFFFFF?text=About+Me" alt="About Me">
+        </div>
+        
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a passionate developer with expertise in creating web applications that provide intuitive, pixel-perfect user interfaces with efficient and modern backends. I take pride in my attention to detail and commitment to delivering exceptional user experiences.</p>
+            
+            <div class="about-details">
+                <div class="detail-item">
+                    <i class='bx bx-map'></i>
+                    <div>
+                        <h4>Location:</h4>
+                        <p>Your City, Country</p>
+                    </div>
+                </div>
+                
+                <div class="detail-item">
+                    <i class='bx bx-envelope'></i>
+                    <div>
+                        <h4>Email:</h4>
+                        <p>your.email@example.com</p>
+                    </div>
+                </div>
+                
+                <div class="detail-item">
+                    <i class='bx bx-graduation-cap'></i>
+                    <div>
+                        <h4>Education:</h4>
+                        <p>Your Degree, University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Database</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Latest <span>Projects</span></h2>
+        
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://placehold.co/600x400/2563eb/FFFFFF?text=Project+1" alt="Project 1">
+                </div>
+                
+                <div class="project-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>Full-stack e-commerce platform with payment integration and admin dashboard.</p>
+                    
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://placehold.co/600x400/2563eb/FFFFFF?text=Project+2" alt="Project 2">
+                </div>
+                
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>Productivity application with drag-and-drop interface and real-time updates.</p>
+                    
+                    <div class="tech-stack">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://placehold.co/600x400/2563eb/FFFFFF?text=Project+3" alt="Project 3">
+                </div>
+                
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time weather application with forecasting and location-based services.</p>
+                    
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>API Integration</span>
+                        <span>Chart.js</span>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        
+        <form action="#" class="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                
+                <div class="input-box">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            
+            <div class="input-group-2">
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        
+        <p>Copyright &copy; 2023 by Your Name | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
